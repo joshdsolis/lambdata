@@ -9,4 +9,14 @@ ONES = np.ones(100)
 ONES_DF = pd.DataFrame(ONES)
 
 def check_nulls(df):
-	df.isnull().sum()
+	print(df.isnull().sum())
+
+
+
+def more_rows(df,num):
+	cols = []
+	for n in ramge(1, num):
+		for c in df.column:
+			cols.append(random.choice(df[c]))
+		df.loc[len(df.index)+n] = cols
+
