@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #!/usr/bin/env python
 """ lambdata - a Data Science Helper
 """
@@ -10,3 +11,4 @@ ONES_DF = pd.DataFrame(ONES)
 
 def check_nulls(df):
 	df.isnull().sum()
+
