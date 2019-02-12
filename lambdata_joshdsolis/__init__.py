@@ -7,3 +7,6 @@ import pandas as pd
 VERSION = 0
 ONES = np.ones(100)
 ONES_DF = pd.DataFrame(ONES)
+
+def check_nulls(df):
+	df.isnull().sum()
