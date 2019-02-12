@@ -3,6 +3,7 @@
 """
 import numpy as np
 import pandas as pd
+import random
 
 VERSION = 0
 ONES = np.ones(100)
@@ -15,8 +16,9 @@ def check_nulls(df):
 
 def more_rows(df,num):
 	cols = []
-	for n in ramge(1, num):
-		for c in df.column:
-			cols.append(random.choice(df[c]))
+	for n in range(1, num):
+		for c in df.columns:
+			cols.append(random.choice(df[c].unique()))
 		df.loc[len(df.index)+n] = cols
+		cols = []
 
