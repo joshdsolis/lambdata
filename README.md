@@ -12,11 +12,10 @@ data scientists can use in their day to day dataframe analysis.
 
 ## Where to get it
 
-'''
 
+```
 pip install -i https://test.pypi.org/simple/ lambdata-joshdsolis
-
-'''
+```
 
 ## Dependencies
 * [NumPy](https://www.numpy.org/)
