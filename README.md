@@ -14,6 +14,7 @@ data scientists can use in their day to day dataframe analysis.
 
 '''
 pip install -i https://test.pypi.org/simple/ lambdata-joshdsolis
+
 '''
 
 ## Dependencies
