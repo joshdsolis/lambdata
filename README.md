@@ -22,5 +22,5 @@ pip install -i https://test.pypi.org/simple/ lambdata-joshdsolis
 * [Pandas](https://pandas.pydata.org/)
 
 ## License
-[BSD 3]()
+[BSD 3](https://github.com/joshdsolis/lambdata/blob/master/LICENSE)
 
